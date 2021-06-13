@@ -1,0 +1,54 @@
+*{    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, sans-serif;/*"Lucida Sans", sans-serif*/
+    font-weight: 300;
+    line-height: 1.254;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+
+.table tr th, td{
+    text-align: center;
+}
+
+.form-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.form-input div.form-group .col-sm-4, .col-md-4, .col-sm-8, .col-md-8{
+    padding: 0px;
+    margin-bottom: 8px;
+}
+
+
+.form-btn{
+    display: block;
+    text-align: center;
+}
+
+.form-btn button.btn-primary{
+    width: 155px;
+}
+
+.form-group input{
+    float: right;
+}
+
+#btnCancel{
+    display: none;
+}
+
+.text-color{
+    color: red;
+}

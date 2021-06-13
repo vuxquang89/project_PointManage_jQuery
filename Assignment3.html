@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-mobile.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/myActions.js"></script>
+</head>
+<body>
+    <script>
+        
+    </script>
+
+    <div class="container-fluid">
+        <div class="form-header">
+            <h1>Class Marksheet</h1>
+            <div class="form-input">
+                <div class="form-group">
+                    <label class="col-sm-4 col-md-4" for="name">Họ tên :</label>
+                    <div class="col-sm-8 col-md-8">
+                        <input class="form-control" id="name" type="text">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 col-md-4" for="math">Điểm toán :</label>
+                    <div class="col-sm-8 col-md-8">
+                        <input class="form-control" id="math" type="number">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 col-md-4" for="physical">Điểm lý :</label>
+                    <div class="col-sm-8 col-md-8">
+                        <input class="form-control" id="physical" type="number">
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 col-md-4" for="chemistry">Điểm hóa :</label>
+                    <div class="col-sm-8 col-md-8">
+                        <input class="form-control" id="chemistry" ype="number">
+                    </div>
+                </div>
+                <div class="form-group form-btn">
+                    
+                        <button id="btnOk" class="btn btn-success" type="button">Nhập</button>
+                    
+                    
+                        <button id="btnCancel" class="btn btn-danger" type="button">Hủy</button>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="tableStudent">
+                    <tr class="active">
+                        <th>STT</th>
+                        <th>Họ tên</th>
+                        <th>Toán</th>
+                        <th>Lý</th>
+                        <th>Hóa</th>
+                        <th>Trung bình</th>
+                    </tr>
+                    
+                    
+                </table>
+            </div>
+            <div class="form-btn">
+                <button id="averageScore" class="btn btn-primary" type="button">Tính điểm trung bình</button>
+                <button id="checkGoodStudents" class="btn btn-primary" type="button">Xác định học sinh giỏi</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
